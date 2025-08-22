@@ -94,20 +94,46 @@ function App() {
       </motion.section>
 
       {/* Projects */}
-      <motion.section
-        id="projects"
-        className="section card"
-        initial={{ opacity: 0, scale: 0.9 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8 }}
-      >
-        <h2>Projects</h2>
-        <ul>
-          <li><strong>TrekTales</strong> – Place sharing with maps & JWT login.</li>
-          <li><strong>AgriAssist</strong> – Smart farming + financial insights.</li>
-          <li><strong>PingMe</strong> – Real-time chat app with authentication.</li>
-        </ul>
-      </motion.section>
+      {/* Projects */}
+<motion.section
+  id="projects"
+  className="section card"
+  initial={{ opacity: 0, scale: 0.9 }}
+  whileInView={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.8 }}
+>
+  <h2>Projects</h2>
+  <div className="projects-grid">
+    <div className="project-card">
+      <h3>TrekTales</h3>
+      <p>
+        A full-stack place sharing platform with interactive maps (Mapbox/Leaflet).
+        Users can share, explore, and favorite locations with secure JWT-based login.
+      </p>
+      <a href="https://github.com/ParthRenakale" target="_blank">🔗 GitHub</a>
+    </div>
+
+    <div className="project-card">
+      <h3>AgriAssist</h3>
+      <p>
+        A smart farming platform for purchasing seeds/tools, tracking yields,
+        and analyzing multi-year crop data. Includes financial advisory suggestions
+        and interactive dashboards.
+      </p>
+      <a href="https://github.com/ParthRenakale" target="_blank">🔗 GitHub</a>
+    </div>
+
+    <div className="project-card">
+      <h3>PingMe</h3>
+      <p>
+        A real-time chat application with room-based chat, socket.io integration,
+        and secure JWT authentication to manage sessions across users.
+      </p>
+      <a href="https://github.com/ParthRenakale" target="_blank">🔗 GitHub</a>
+    </div>
+  </div>
+</motion.section>
+
 
       {/* Publications */}
       <motion.section
