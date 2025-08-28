@@ -179,7 +179,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Parth Renakale | Portfolio Site</p>
+        <p>© {new Date().getFullYear()} Parth Renakale | Portfolio</p>
       </footer>
     </div>
   );
