@@ -170,7 +170,6 @@ function App() {
         <h2>Contact</h2>
         <p>📞 +91-7385111218</p>
         <p>📧 prenakale@gmail.com</p>
-        <p>📧 prenakale2@gmail.com</p>
         <p>
           🔗 <a href="https://www.linkedin.com/in/parth-renakale-71b97a324/" target="_blank">LinkedIn</a> | 
           <a href="https://github.com/ParthRenakale" target="_blank"> GitHub</a> | 
