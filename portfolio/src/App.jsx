@@ -173,7 +173,7 @@ function App() {
         <p>
           🔗 <a href="https://www.linkedin.com/in/parth-renakale-71b97a324/" target="_blank">LinkedIn</a> | 
           <a href="https://github.com/ParthRenakale" target="_blank"> GitHub</a> | 
-          <a href="https://leetcode.com/u/prenakale/" target="blank"> LeetCode</a>
+          <a href="https://leetcode.com/u/prenakale/" target="_blank"> LeetCode</a>
         </p>
       </motion.section>
 
